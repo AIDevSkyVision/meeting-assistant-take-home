@@ -1,0 +1,30 @@
+# Local credentials; keep sanitized examples available to reviewers.
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Dependencies and generated output.
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.next/
+.nuxt/
+dist/
+build/
+coverage/
+.pytest_cache/
+*.log
+
+# Local media, earlier draft fixtures, and uploaded meeting data.
+/recordings/
+/fixtures/
+/uploads/
+/local-data/
+
+# Editor and operating-system files.
+.DS_Store
+.idea/
+*.swp
