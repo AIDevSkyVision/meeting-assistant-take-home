@@ -6,7 +6,7 @@ Plan for **1–2 hours** of work and submit **within 2 days** of receiving the a
 
 ## Set up your repository
 
-Click **"Use this template" → "Create a new repository"** and set your repository to **Private**. Build and deploy your app, then invite **`AIDevSkyVision`** as a repository collaborator.
+Click **"Use this template" → "Create a new repository"** and set your repository to **Private**. Build and deploy your app on **Cloudflare**, including frontend hosting, backend compute, any background processing, and persistent storage. Then invite **`AIDevSkyVision`** as a repository collaborator.
 
 Preserve any co-author attribution your AI development tools automatically add to Git commits, such as `Co-authored-by` trailers.
 
@@ -15,7 +15,7 @@ Preserve any co-author attribution your AI development tools automatically add t
 Email [aidevelopment@skyvisioninsurance.com](mailto:aidevelopment@skyvisioninsurance.com) with:
 
 - Your **private repository link** and a direct link to your **README**.
-- Your **deployed application URL** and an **access code** reviewers can use to inspect saved meeting history across devices.
+- Your **Cloudflare-deployed application URL** and an **access code** reviewers can use to inspect saved meeting history across devices.
 - The **original multi-speaker audio file**, approximately **90 minutes** long, that you found and used to test the application. Attach the file or provide an accessible download link.
 - A **face-visible introduction video of no more than 2 minutes**. [Loom](https://www.loom.com/) is recommended.
 
@@ -23,7 +23,7 @@ Email [aidevelopment@skyvisioninsurance.com](mailto:aidevelopment@skyvisioninsur
 
 Include:
 
-- How to configure, start, and run the project.
+- How to configure, start, run, and deploy the project on Cloudflare, including the Cloudflare services used and required configuration.
 - The speech models, language models, or APIs used, and why you chose them.
 - Completed features, unfinished features, and key tradeoffs.
 

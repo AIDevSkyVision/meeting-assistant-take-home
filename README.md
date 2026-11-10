@@ -1,6 +1,6 @@
 # Meeting Assistant — Engineering Take-Home
 
-Build and deploy a Web meeting assistant that records or accepts audio, transcribes it, and turns it into useful meeting notes in Chinese and English.
+Build and deploy a Web meeting assistant on **Cloudflare** that records or accepts audio, transcribes it, and turns it into useful meeting notes in Chinese and English.
 
 This assignment is for **full-stack engineers and AI application engineers**. Product delivery, AI implementation quality, and engineering quality are equally important.
 
@@ -46,7 +46,7 @@ The Web interface must let users switch between Chinese and English. The generat
 - Save the original recordings, transcripts, and meeting notes, including edits.
 - Support playing back saved recordings in the Web application.
 
-The implementation and storage choices are yours.
+Choose the implementation and Cloudflare storage services that fit your application.
 
 ## Bonus: real-time AI assistance
 
@@ -60,9 +60,11 @@ The bonus feature should support:
 
 This is a bonus feature, separate from the core requirement to transcribe after recording stops.
 
-## Technology and AI services
+## Technology, deployment, and AI services
 
-Choose your own frontend and backend stack, speech models, language models, and APIs. **Explain why you selected the models and services you used.**
+**Use Cloudflare for the application's complete deployment and compute.** Host the frontend on Cloudflare, run the backend and any background processing on Cloudflare, and persist application data and recordings in Cloudflare services. You may choose the Cloudflare services that best fit your implementation.
+
+Choose your own frontend and backend stack that can be deployed on Cloudflare. You are free to choose speech models, language models, and APIs. External AI APIs are allowed and must be called from your Cloudflare backend. **Explain why you selected the models and services you used.**
 
 You are responsible for your own provider accounts, API keys, and usage costs. Keep API keys out of the repository and browser-exposed code.
 
@@ -74,7 +76,7 @@ Find a **multi-speaker audio recording approximately 90 minutes long** and use t
 
 ## How to submit
 
-See [SUBMISSION.md](SUBMISSION.md). In short: click **"Use this template"** to create your own **private repo**, build and deploy your app, invite **`AIDevSkyVision`**, and email us your repo link, README, deployed app URL, access code, original test audio, and a **face-visible introduction video of no more than 2 minutes**.
+See [SUBMISSION.md](SUBMISSION.md). In short: click **"Use this template"** to create your own **private repo**, build and deploy your app on **Cloudflare**, invite **`AIDevSkyVision`**, and email us your repo link, README, deployed app URL, access code, original test audio, and a **face-visible introduction video of no more than 2 minutes**.
 
 Send your submission to [aidevelopment@skyvisioninsurance.com](mailto:aidevelopment@skyvisioninsurance.com). [Loom](https://www.loom.com/) is recommended for recording.
 

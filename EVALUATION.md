@@ -6,7 +6,7 @@ We give equal importance to the following three areas, considering the recommend
 
 ### Product delivery
 
-- The deployed web app is accessible by URL. Audio upload and browser microphone recording both lead through transcription, note generation, and result review.
+- The web app is deployed on Cloudflare and accessible by URL. Audio upload and browser microphone recording both lead through transcription, note generation, and result review.
 - The Chinese/English UI switch, simultaneous bilingual notes, and automatic synchronization after editing either language form a coherent, usable experience.
 - One access code represents one user and retrieves all their historical meetings across devices. Original audio is saved and playable, alongside saved transcripts and notes.
 - GitHub source and run instructions make the implementation accessible and understandable.
@@ -19,9 +19,9 @@ We give equal importance to the following three areas, considering the recommend
 
 ### Engineering quality
 
-- Code is understandable, and technical choices suit the delivered scope. Recording, model calls, saved data, and bilingual synchronization work together sensibly.
+- Code is understandable, and technical choices suit the delivered scope. Frontend hosting, backend compute, any background processing, and persistent storage use Cloudflare. Recording, model calls, saved data, and bilingual synchronization work together sensibly.
 - Handling of access codes, API keys, and meeting data demonstrates sound engineering judgment.
-- Configuration and run instructions work, with important limitations and incomplete parts explained. **Automated tests are not required.**
+- Configuration, run, and Cloudflare deployment instructions work, with important limitations and incomplete parts explained. **Automated tests are not required.**
 
 ### Optional real-time assistant
 
