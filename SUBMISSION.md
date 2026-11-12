@@ -17,7 +17,14 @@ Email [aidevelopment@skyvisioninsurance.com](mailto:aidevelopment@skyvisioninsur
 - Your **private repository link** and a direct link to your **README**.
 - Your **Cloudflare-deployed application URL** and an **access code** reviewers can use to inspect saved meeting history across devices.
 - The **original multi-speaker audio file**, approximately **90 minutes** long, that you found and used to test the application. Attach the file or provide an accessible download link.
-- A **face-visible introduction video of no more than 2 minutes**. [Loom](https://www.loom.com/) is recommended.
+- A **face-visible demo video approximately 3–5 minutes long**. [Loom](https://www.loom.com/) is recommended. See the walkthrough requirements below.
+
+## Video walkthrough
+
+In your video:
+
+- Demonstrate your deployed application and its main user flow.
+- Open and show the relevant pages in your **Cloudflare dashboard** for this project. Explain the architecture: which services you used, what each service does, and how they work together for frontend hosting, backend compute, any background processing, persistent storage, and AI API calls.
 
 ## Repository documentation
 

@@ -76,7 +76,9 @@ Find a **multi-speaker audio recording approximately 90 minutes long** and use t
 
 ## How to submit
 
-See [SUBMISSION.md](SUBMISSION.md). In short: click **"Use this template"** to create your own **private repo**, build and deploy your app on **Cloudflare**, invite **`AIDevSkyVision`**, and email us your repo link, README, deployed app URL, access code, original test audio, and a **face-visible introduction video of no more than 2 minutes**.
+See [SUBMISSION.md](SUBMISSION.md). In short: click **"Use this template"** to create your own **private repo**, build and deploy your app on **Cloudflare**, invite **`AIDevSkyVision`**, and email us your repo link, README, deployed app URL, access code, original test audio, and a **face-visible demo video approximately 3–5 minutes long**.
+
+The video must demonstrate your application and show the relevant pages in your **Cloudflare dashboard** while you explain the project's architecture and how the services work together.
 
 Send your submission to [aidevelopment@skyvisioninsurance.com](mailto:aidevelopment@skyvisioninsurance.com). [Loom](https://www.loom.com/) is recommended for recording.
 

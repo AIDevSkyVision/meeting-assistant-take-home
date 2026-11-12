@@ -10,6 +10,7 @@ We give equal importance to the following three areas, considering the recommend
 - The Chinese/English UI switch, simultaneous bilingual notes, and automatic synchronization after editing either language form a coherent, usable experience.
 - One access code represents one user and retrieves all their historical meetings across devices. Original audio is saved and playable, alongside saved transcripts and notes.
 - GitHub source and run instructions make the implementation accessible and understandable.
+- The video demonstrates the application and shows the project's Cloudflare dashboard pages with a clear explanation of the architecture and how its services work together.
 
 ### AI implementation quality
 
